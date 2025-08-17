@@ -1,0 +1,6 @@
+input_data: "../WORK_DIR/DATA/test_clean.json"
+asr_model: "../stt_en_conformer_ctc_small_ls.nemo"
+spm_model_path: "../stt_en_conformer_ctc_small_ls_tokenizer.model"
+DEVICE: "cuda:2"
+TEST_BS: 1
+audio_root: ""
